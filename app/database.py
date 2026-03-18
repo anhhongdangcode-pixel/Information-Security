@@ -5,12 +5,12 @@ database.py — Quản lý kết nối MySQL + in-memory session store
 import asyncio
 import logging
 import aiomysql
+
 from app.config import DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME
-from pymysql.constants import CLIENT
 
 logger = logging.getLogger(__name__)
 
-# ── In-memory session store (giữ nguyên logic cũ) ────────────────────────────
+# ── In-memory session store ────────────────────────────────────────────────────
 active_sessions: dict = {}
 metadata_locks: dict = {}
 
@@ -39,7 +39,6 @@ async def get_pool() -> aiomysql.Pool:
             autocommit=True,
             minsize=1,
             maxsize=5,
-            client_flag = CLIENT.MULTI_STATEMENTS,
         )
         logger.info("✅ MySQL pool created")
     return _pool
