@@ -12,34 +12,34 @@ from app.config import (
     VALID_TOKENS, CANDIDATE_TOKENS, ADMIN_TOKENS,
     BASE_DIR, MAX_FILE_SIZE  
 )
- 
+
 from app.schemas import TokenRequest, SessionStartRequest, SessionFinishRequest, AdminLoginRequest
 import aiomysql
 from app.database import active_sessions, get_conn, get_pool
- 
+
 from app.utils import (
     generate_folder_name, 
     get_bangkok_timestamp,
     BANGKOK_TZ
 )
- 
+
 from app.database import active_sessions
- 
+
 from app.services.file_service import (
     create_metadata, update_metadata, 
     verify_video_by_signature, convert_to_mp4
 )
- 
+
 from app.services import ai_service
 from app.services.ai_service import (
     background_transcribe, 
     calculate_final_ranking, 
     transcribe_video_whisper
 )
- 
+
 router = APIRouter()
 logger = logging.getLogger(__name__)
- 
+
 @router.post("/api/verify-token")
 async def verify_token(request: TokenRequest):
     if request.token in ADMIN_TOKENS:
@@ -48,7 +48,7 @@ async def verify_token(request: TokenRequest):
         return {"ok": True, "role": "candidate"}
     else:
         raise HTTPException(status_code=401, detail="Invalid token")
- 
+
 @router.post("/api/session/start")
 async def session_start(request: SessionStartRequest):
     if request.token not in VALID_TOKENS: raise HTTPException(401, "Invalid token")
@@ -82,7 +82,7 @@ async def session_start(request: SessionStartRequest):
         "folder": folder_name,
         "questions": selected_questions
     }
- 
+
 @router.post("/api/upload-one")
 async def upload_one(
     background_tasks: BackgroundTasks,
@@ -124,7 +124,7 @@ async def upload_one(
             raise HTTPException(415, "Invalid video format")
             
         mp4_filename = convert_to_mp4(dest_path)
- 
+
         question_text = "Unknown question"
         try:
             if meta_file.exists():
@@ -135,12 +135,12 @@ async def upload_one(
                         question_text = q_def["text"]
         except Exception as e:
             logger.error(f"Failed to fetch question text: {e}")
- 
+
         try: ai_metrics = json.loads(analysisData)
         except json.JSONDecodeError as e:
             logger.warning(f"Invalid analysisData JSON: {e}")
             ai_metrics = {}
- 
+
         question_data = {
             "index": questionIndex,
             "text": question_text,
@@ -166,7 +166,7 @@ async def upload_one(
             try: ai_metrics = json.loads(analysisData)
             except: ai_metrics = {}
             focus_score = ai_metrics.get("focusScore", 0)
- 
+
             background_tasks.add_task(
                 background_transcribe,
                 folder_path, 
@@ -178,7 +178,7 @@ async def upload_one(
             transcription_status = "processing"
         else:
             transcription_status = "disabled"
- 
+
         return {
             "ok": True,
             "savedAs": filename,
@@ -186,13 +186,13 @@ async def upload_one(
             "transcription": transcription_status,
             "size": file_size
         }
- 
+
     except HTTPException: raise
     except Exception as e:
         logger.error(f"Upload error: {str(e)}")
         dest_path.unlink(missing_ok=True)
         raise HTTPException(500, f"Upload failed: {str(e)}")
- 
+
 @router.post("/api/session/finish")
 async def session_finish(request: SessionFinishRequest, bg_tasks: BackgroundTasks):
     if request.folder in active_sessions and active_sessions[request.folder]["token"] != request.token:
@@ -206,7 +206,7 @@ async def session_finish(request: SessionFinishRequest, bg_tasks: BackgroundTask
         del active_sessions[request.folder]
     
     return {"ok": True}
- 
+
 @router.get("/api/transcript/{folder}/{question_index}")
 async def get_transcript(folder: str, question_index: int, token: str):
     if token not in VALID_TOKENS: raise HTTPException(401, "Invalid token")
@@ -219,7 +219,7 @@ async def get_transcript(folder: str, question_index: int, token: str):
         "ok": True,
         "content": transcript_file.read_text(encoding='utf-8')
     }
- 
+
 @router.get("/api/admin/candidates")
 async def get_candidates(token: str):
     if token not in ADMIN_TOKENS:
@@ -235,18 +235,18 @@ async def get_candidates(token: str):
                 try:
                     with meta_file.open("r", encoding="utf-8") as f:
                         metadata = json.load(f)
- 
+
                     parts = folder.name.split("_")
                     if len(parts) >= 5:
                         time_str = f"{parts[0]}/{parts[1]}/{parts[2]} {parts[3]}:{parts[4]}"
                     else:
                         time_str = "Unknown"
- 
+
                     qs = metadata.get("questions", [])
                     final_summary = metadata.get("final_ranking_summary", {})
                     ai_note = "No data yet"
                     priority_num = 2
- 
+
                     if final_summary and "overall_ai_summary" in final_summary:
                         overall = final_summary["overall_ai_summary"]
                         if "overall_summary" in overall:
@@ -275,12 +275,12 @@ async def get_candidates(token: str):
                         else:
                             ai_note = "Waiting for AI..."
                             priority_num = 4
- 
+
                     avg_focus = 0
                     if qs:
                         focus_scores = [q.get("aiAnalysis", {}).get("focusScore", 0) for q in qs]
                         avg_focus = sum(focus_scores) / len(focus_scores) if focus_scores else 0 
- 
+
                     folder_url = f"/uploads/{folder.name}"
                     results.append({
                         "name": metadata.get("userName","Unknown"), 
@@ -298,19 +298,49 @@ async def get_candidates(token: str):
     
     results_sorted = sorted(results, key=lambda x: x.get("priority", 2))
     return {"candidates": results_sorted}
- 
- 
-# ── VULNERABLE endpoint (dùng để demo SQLi) ───────────────────────────────────
+
+
+# ════════════════════════════════════════════════════════════════════════
+# ⚠️  VULNERABLE ENDPOINT — CHỈ DÙNG ĐỂ DEMO / HỌC TẬP
+#
+#  Lỗ hổng có trong endpoint này:
+#  1. SQL Injection (Boolean-based, Error-based, UNION-based)
+#  2. Nhận cả JSON lẫn Form-data → sqlmap và ZAP đều test được
+#  3. Luôn trả về HTTP 200 → sqlmap phân biệt đúng/sai qua body
+# ════════════════════════════════════════════════════════════════════════
 @router.post("/api/admin/login")
-async def admin_login_vulnerable(
-    username: str = Form(...), 
-    password: str = Form(...),
-    token: str = Form(""),
-    ho_ten: str = Form("")
-):
-    # Dùng F-string để tạo lỗ hổng SQLi cực mạnh
-    query = f"SELECT id, username FROM Admins WHERE username = '{username}' AND password = '{password}'"
-    
+async def admin_login_vulnerable(request: Request):
+    # ── Bước 1: Đọc username/password từ JSON hoặc Form ──────────────
+    username = ""
+    password = ""
+
+    content_type = request.headers.get("content-type", "")
+
+    if "application/json" in content_type:
+        # sqlmap / PowerShell Invoke-RestMethod gửi JSON
+        try:
+            body = await request.json()
+            username = str(body.get("username", ""))
+            password = str(body.get("password", ""))
+        except Exception:
+            pass
+    else:
+        # ZAP / trình duyệt / curl gửi application/x-www-form-urlencoded
+        try:
+            form = await request.form()
+            username = str(form.get("username", ""))
+            password = str(form.get("password", ""))
+        except Exception:
+            pass
+
+    # ── Bước 2: Xây dựng query KHÔNG an toàn (cố ý) ─────────────────
+    # KHÔNG dùng parameterized query → dễ bị tấn công SQLi
+    query = (
+        f"SELECT id, username FROM Admins "
+        f"WHERE username = '{username}' "
+        f"AND password = '{password}'"
+    )
+
     try:
         pool = await get_pool()
         async with pool.acquire() as conn:
@@ -318,21 +348,36 @@ async def admin_login_vulnerable(
                 logger.warning(f"[VULNERABLE] Executing query: {query}")
                 await cur.execute(query)
                 row = await cur.fetchone()
-        
+
         if row:
-            # Đăng nhập đúng
-            return {"ok": True, "message": f"Welcome, {row['username']}!"}
-        
-        # --- FIX LỖI 401 TẠI ĐÂY ---
-        # Không dùng raise HTTPException nữa, trả về 200 OK kèm thông báo sai
-        return {"ok": False, "message": "Login failed! Try harder!"}     
+            logger.warning(f"[SQLI RESULT] Data leaked: {dict(row)}")
+            # ✅ Response khi đúng → sqlmap dùng --string="Welcome" để detect
+            return {
+                "ok": True,
+                "message": f"Welcome, {row['username']}!",
+                "data": dict(row)
+            }
+
+        # ❌ Sai credentials → trả 200 OK (KHÔNG raise 401)
+        # Giúp sqlmap phân biệt True/False response qua body
+        return {
+            "ok": False,
+            "message": "Login failed! Invalid credentials."
+        }
+
     except Exception as e:
         logger.error(f"DB error (vulnerable login): {e}")
-        # Trả về mã 500 nếu câu lệnh SQL bị lỗi cú pháp (giúp sqlmap nhận diện Error-based SQLi)
-        return {"ok": False, "error": f"Database Error: {str(e)}"}
- 
- 
-# ── SAFE endpoint (dùng parameterized query) ──────────────────────────────────
+        # 💥 SQL syntax error → trả về error message
+        # Giúp ZAP / sqlmap detect Error-based SQLi
+        return {
+            "ok": False,
+            "error": f"Database Error: {str(e)}"
+        }
+
+
+# ════════════════════════════════════════════════════════════════════════
+# ✅  SAFE ENDPOINT — Dùng parameterized query, không bị SQLi
+# ════════════════════════════════════════════════════════════════════════
 @router.post("/api/admin/login/safe")
 async def admin_login_safe(request: AdminLoginRequest):
     query = "SELECT id, username FROM Admins WHERE username = %s AND password = %s"
